@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles/collection.css"
 
 const BotCollection = ({ bots, onList }) => {
   return (
@@ -10,9 +10,18 @@ const BotCollection = ({ bots, onList }) => {
           <div className="bot-card">
             <img className="avatar" src={bot.avatar_url} alt ={bot.name} onClick = {()=>onList(bot)}/>
               <h2>{bot.name}</h2>
-              <p>Health; {bot.health}</p>
-              <p>Class: {bot.class}</p>
+              <p>Id: {bot.id}</p>
               <p>Created: {bot.created_at}</p>
+              <p>Health; {bot.health}</p>
+              <p>Damage: {bot.damage}</p>
+              <p>Armor: {bot.armor}</p>
+
+              <button
+                className="list-button"
+                onClick={() => onList(bot)}
+              >
+                List
+              </button>
               </div>
               </div>
               ))}

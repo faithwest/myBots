@@ -1,33 +1,39 @@
 
 
 .my-army {
-    display: flex;
-    justify-content: center;
-    min-height: 350px;
-    padding: 5px;
-    background-color: aqua;
-  }
-  
-  .card-wrapper {
-    background-color: #fff;
-    min-width: 130px;
-    min-height: 180px;
-    align-items: center;
-    margin: 10px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  padding: 5px;
+  background-color: rgb(126, 140, 214);
 
-  }
-  
- .avatar{
-     width: 120px;
-  }
+}
 
-  .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    background-color: grey;
+.card-wrapper {
+  background-color: #fff;
+  min-width: 130px;
+  min-height: 180px;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
 
-  } 
+}
+
+.avatar{
+   width: 120px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(10, 204, 230);
+
+} 
+.list-button {
+  background-color: rgb(10, 204, 230);
+  border-radius: 3px 8px;
+  margin-bottom: 3px;
   
+}

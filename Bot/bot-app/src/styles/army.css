@@ -5,7 +5,7 @@
     justify-content: center;
     min-height: 350px;
     padding: 5px;
-    background-color: aqua;
+    background-color: rgb(126, 140, 214);
   }
   
   .card-wrapper {
@@ -27,7 +27,14 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(10, 204, 230);
 
   } 
+  .delete-button {
+    background-color: rgb(10, 204, 230);
+  border-radius: 3px 8px;
+  margin-bottom: 3px;
   
+}
+  
+ 
