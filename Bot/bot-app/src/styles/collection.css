@@ -1,0 +1,33 @@
+
+
+.my-army {
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    padding: 5px;
+    background-color: aqua;
+  }
+  
+  .card-wrapper {
+    background-color: #fff;
+    min-width: 130px;
+    min-height: 180px;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+
+  }
+  
+ .avatar{
+     width: 120px;
+  }
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: grey;
+
+  } 
+  
