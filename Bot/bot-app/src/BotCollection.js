@@ -20,7 +20,7 @@ const BotCollection = ({ bots, onList }) => {
                 className="list-button"
                 onClick={() => onList(bot)}
               >
-                List
+                X
               </button>
               </div>
               </div>
